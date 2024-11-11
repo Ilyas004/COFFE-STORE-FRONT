@@ -3,14 +3,25 @@ import type { Config } from "tailwindcss";
 const config: Config = {
     darkMode: ["class"],
     content: [
+
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/shared/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/view/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/entities/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/widget/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
   	extend: {
+		screens: {
+			'xs': '1160px',  // создаем медиазапрос для 1160px
+		  },
+
+		boxShadow: {
+			'custom': `0 4px 21px #0000001a`,
+		},
+
 		fontSize: {
 			'mini': ['10px', '12px']
 		},

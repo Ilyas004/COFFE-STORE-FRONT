@@ -1,6 +1,6 @@
 
 interface BlockProps {
-    children: React.ReactNode
+    children?: React.ReactNode
     backgroudWrapper?: string
     className?: string
 }

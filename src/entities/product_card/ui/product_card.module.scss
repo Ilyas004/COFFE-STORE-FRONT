@@ -1,0 +1,19 @@
+.cardBox {
+    @apply relative p-[30px] hover:shadow-custom hover:scale-105 rounded-md max-w-[370px] overflow-hidden h-[582px] bg-[#fafafa] hover:bg-[#fefefe] transition duration-200;
+
+    .topButton {
+        @apply flex items-center gap-2 cursor-pointer hover:text-black text-gray-500;
+    }
+
+    .textContent {
+        @apply text-gray-500 text-sm;
+    }
+
+    .textTovar {
+        @apply text-gray-500 text-sm h-[62px] line-clamp-3 text-ellipsis text-wrap;
+    }
+
+    .progress {
+        @apply h-1 mb-1 bg-gray-300 w-full;
+    }
+}

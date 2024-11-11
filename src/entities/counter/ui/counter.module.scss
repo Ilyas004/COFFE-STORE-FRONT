@@ -1,0 +1,7 @@
+.button {
+    @apply hover:bg-gray-100 p-1 rounded-full transition duration-200;
+}
+
+.input {
+    @apply w-[30px] text-sm font-medium bg-transparent text-center;
+}

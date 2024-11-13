@@ -55,8 +55,8 @@ export const ProductCard = () => {
 
                 <div className="absolute bottom-0 left-0 px-[30px] pb-[30px] w-full flex justify-between items-center">
                     <div>
-                        <p className="text-xs text-gray-500">250 г</p>
-                        <p className="text-[13px] font-medium">669 ₽</p>
+                        <p className="text-xs text-gray-500 select-none">250 г</p>
+                        <p className="text-[13px] font-medium select-none">669 ₽</p>
                     </div>
                     
                     <Button className="rounded-full">

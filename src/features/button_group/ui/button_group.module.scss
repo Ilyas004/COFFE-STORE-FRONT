@@ -1,0 +1,13 @@
+.textButton {
+    @apply text-lg font-extrabold hover:opacity-100 transition duration-300 cursor-pointer;
+
+
+}
+
+.active {
+    opacity: 1;
+}
+
+.inactive {
+    opacity: 0.6;
+}

@@ -1,7 +1,9 @@
+import { Block } from "@/shared/ui/Block"
+
 export const CreateAccountScreen = () => {
     return (
-        <div>
-            
-        </div>
+        <Block>
+            <p>Регистрация</p>
+        </Block>
     )
 }

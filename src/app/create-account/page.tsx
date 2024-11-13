@@ -5,3 +5,5 @@ const CreateAccountPage = () => {
         <CreateAccountScreen />
     )
 }
+
+export default CreateAccountPage

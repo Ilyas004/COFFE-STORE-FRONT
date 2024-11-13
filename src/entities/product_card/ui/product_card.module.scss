@@ -1,3 +1,9 @@
+@starting-style {
+    .cardBox {
+        @apply h-0 opacity-0;
+    }
+}
+
 .cardBox {
     @apply relative p-[30px] hover:shadow-custom hover:scale-105 rounded-md max-w-[370px] overflow-hidden h-[582px] bg-[#fafafa] hover:bg-[#fefefe] transition duration-200;
 

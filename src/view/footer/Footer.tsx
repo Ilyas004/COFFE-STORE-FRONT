@@ -59,7 +59,7 @@ export const Footer = () => {
                     </Link>
 
                     <div className="flex gap-2">
-                        <Button className="bg-blue-400" size={'cirle_icon'}>Tel</Button>
+                        <Button className="bg-blue-400" size={'cirle_icon'}>TG</Button>
                         <Button className="bg-red-600" size={'cirle_icon'}>YouTB</Button>
                         <Button className="bg-blue-800/80" size={'cirle_icon'}>VK</Button>
                     </div>

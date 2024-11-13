@@ -10,6 +10,7 @@ import { Heart, Search, ShoppingCart } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/shared/ui/avatar"
 import React from "react"
 import { NavigationMenu } from "./navigation_menu"
+import { createAccountRoute } from "@/utils/constant"
 
 export const Header = () => {
     return (
@@ -22,7 +23,7 @@ export const Header = () => {
                     </Avatar>
 
                     <p className="cursor-pointer text-sm font-medium">Вход</p>
-                    <Link href={""} className="text-sm font-medium">Регистрация</Link>
+                    <Link href={createAccountRoute} className="text-sm font-medium">Регистрация</Link>
                 </div>
             </Block>
             <Separator />
